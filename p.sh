@@ -1,17 +1,1 @@
-#!/bin/bash
 
-echo "📦 Adding all changes..."
-git add .
-
-echo "📝 Enter your commit message:"
-read commitMessage
-
-git commit -m "$commitMessage"
-
-echo "🌐 Pulling latest changes from remote with rebase (to avoid conflicts)..."
-git pull --rebase origin main
-
-echo "🚀 Pushing to GitHub..."
-git push origin main
-
-echo "✅ Code pushed successfully!"
