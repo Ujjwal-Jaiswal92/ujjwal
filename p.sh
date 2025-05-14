@@ -8,8 +8,8 @@ read commitMessage
 
 git commit -m "$commitMessage"
 
-echo "🌐 Pulling latest changes from remote (to avoid conflicts)..."
-git pull origin main --allow-unrelated-histories
+echo "🌐 Pulling latest changes from remote with rebase (to avoid conflicts)..."
+git pull --rebase origin main
 
 echo "🚀 Pushing to GitHub..."
 git push origin main
