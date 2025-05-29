@@ -22,7 +22,7 @@ class External
     public:
         void input()
         {
-            cout<<"enter internal marks of 6 subjects";
+            cout<<"enter External marks of 6 subjects";
             for(int i=0;i<6;i++)
             {
                 cin>>m2[i];
