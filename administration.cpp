@@ -42,7 +42,7 @@ class Administration
             {
                 total[i]=im.m1[i]+em.m2[i];
             }
-            cout<<"the totaled marks are:\n";
+            cout<<"the total marks are:\n";
             for(i=0;i<6;i++)
             {
                 cout<<total[i]<<" ";
