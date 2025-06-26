@@ -42,6 +42,7 @@ int main()
     cout<<"entered details are:\n";
     c2.display();
     result.addComplex(c1,c2);
+    cout<"the added complex number is:";
     result.display();
     return 0;
 }
